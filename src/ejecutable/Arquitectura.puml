@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+(1) --> (2) : inform
+(2) <--> (4) : request
+(3) -- (hi) : inform
+(4) --> (3) : inform
+(5) <--> (2) : request
+(hn) -- (hi) : inform
+'hn y hi son hijos infinitos'
+@enduml
